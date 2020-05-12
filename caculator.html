@@ -41,9 +41,8 @@
 
         window.onload = function () {
             document.getElementById("btnA").onclick = function () {
-                var outputValue = eval(output);
-                document.getElementById("result").innerHTML = outputValue;
-                output="0";
+                document.getElementById("result").innerHTML = eval(output);
+                output=" ";
             }
         }
     </script>
